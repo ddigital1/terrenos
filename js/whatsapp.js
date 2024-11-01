@@ -10,7 +10,7 @@ const phone = '524448482650';
 
 $form.addEventListener('submit', (event) => {
     event.preventDefault()
-    buttonSubmit.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i>'
+    buttonSubmit.innerHTML = '<i class="fa fa-check"></i>'
     buttonSubmit.disabled = true
 
     setTimeout(() => {
@@ -28,7 +28,7 @@ $form.addEventListener('submit', (event) => {
             window.open(urlDesktop + message, )
         }
 
-        buttonSubmit.innerHTML = '<i class="fab fa-whatsapp"></i> Enviar WhatsApp'
+        buttonSubmit.innerHTML = '<i class="fa fa-whatsapp"></i> Enviar WhatsApp'
         buttonSubmit.disabled = false
 
     }, 4000);
